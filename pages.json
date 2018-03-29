@@ -1,0 +1,13 @@
+{
+  "baseUrl": "http://localhost:1313",
+  "pages": [
+    {
+      "name": "homepage",
+      "url": "/"
+    },
+    {
+      "name": "hire",
+      "url": "/hire"
+    }
+  ]
+}
