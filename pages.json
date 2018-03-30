@@ -1,5 +1,9 @@
 {
-  "baseUrl": "http://localhost:1313",
+  "baseUrl": "https://bassam.co",
+  "breakpoints": [
+    { "width": 1440, "height": 900 },
+    { "width": 375, "height": 667 }
+  ],
   "pages": [
     {
       "name": "homepage",
