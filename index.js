@@ -34,7 +34,7 @@ const screenshot = async (name, url, { width, height }) => {
 };
 
 breakpoints.forEach(breakpoint => {
-  pages.forEach(({ name, url }) => {
-    screenshot(name, url, breakpoint);
+  pages.forEach(async ({ name, url }) => {
+    await screenshot(name, url, breakpoint);
   });
 });
